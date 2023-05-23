@@ -1,6 +1,4 @@
-## Installation
-
-Install my-project with npm
+## Langkah Clone dan Menjalankannya
 
 ```bash
   git clone https://github.com/abi-widiarta/laravel-tailwind-profile.git
@@ -28,4 +26,8 @@ Install my-project with npm
 
 ```bash
   php artisan serve
+```
+
+```bash
+  buka pake localhost yang dikasi php artisan serve
 ```
