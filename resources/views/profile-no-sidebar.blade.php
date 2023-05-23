@@ -8,53 +8,8 @@
 <body class="box-border">
     {{-- container --}}
     <div>
-        {{-- sidebar start --}}
-        <aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-28 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-            <div class="h-full pt-10 overflow-y-auto bg-white dark:bg-gray-800 border border-e-[6px] border-[#EBE8FB]">
-            <ul class="space-y-6 w-[100%] font-medium flex items-center flex-col">
-                {{-- logo --}}
-                <li class="mb-6 ">
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white ">
-                        <img class="w-11" src="img/logo.svg" alt="logo-college">
-                    </a>
-                </li>
-                {{-- menu 1 --}}
-                <li class="w-full flex justify-center border-s-4 border-e-4 border-s-white border-e-white cursor-pointer hover:border-e-[#6C5ECF] transition-all">
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white">
-                        <img class="w-8" src="img/home.svg" alt="home-sidebar">
-                    </a>
-                </li>
-                {{-- menu 2 --}}
-                <li class="w-full flex justify-center border-s-4 border-e-4 border-s-white border-e-white cursor-pointer hover:border-e-[#6C5ECF] transition-all">
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white">
-                        <img class="w-8" src="img/chat.svg" alt="chat-sidebar">
-                    </a>
-                </li>
-                {{-- menu 3 --}}
-                <li class="w-full flex justify-center border-s-4 border-e-4 border-s-white border-e-white cursor-pointer hover:border-e-[#6C5ECF] transition-all">
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white">
-                        <img class="w-8" src="img/user.svg" alt="user-sidebar">
-                    </a>
-                </li>
-                {{-- menu 4 --}}
-                <li class="w-full flex justify-center border-s-4 border-e-4 border-s-white border-e-white cursor-pointer hover:border-e-[#6C5ECF] transition-all">
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white">
-                        <img class="w-8" src="img/link.svg" alt="link-sidebar">
-                    </a>
-                </li>
-                {{-- menu 5 --}}
-                <li class="w-full flex justify-center border-s-4 border-e-4 border-s-white border-e-white cursor-pointer hover:border-e-[#6C5ECF] transition-all">
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white">
-                        <img class="w-8" src="img/info.svg" alt="info-sidebar">
-                    </a>
-                </li>
-            </ul>
-            </div>
-        </aside>
-        {{-- sidebar end --}}
-
         {{-- main start --}}
-        <main class="ml-32 h-screen flex justify-center items-center">
+        <main class="h-screen flex justify-center items-center">
             <div class="w-full max-w-5xl bg-white rounded-lg  sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                 {{-- main title --}}
                 <div class="flex items-center justify-between mb-4">
