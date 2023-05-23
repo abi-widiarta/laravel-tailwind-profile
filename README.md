@@ -17,14 +17,17 @@
 ```
 
 ```bash
+  buka terminal baru
   php artisan key:generate
 ```
 
 ```bash
+  buka terminal baru
   npm run dev
 ```
 
 ```bash
+  buka terminal baru
   php artisan serve
 ```
 
